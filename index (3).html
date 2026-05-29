@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triveni Reddy - Data Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Capsule Navigation -->
+    <nav class="capsule-nav">
+        <div class="capsule-container">
+            <!-- Left Navigation -->
+            <div class="nav-group nav-left">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#projects" class="nav-item">Projects</a>
+            </div>
+            
+            <!-- Center Branding -->
+            <div class="nav-brand">
+                <span class="brand-name">TRIVENI REDDY</span>
+            </div>
+            
+            <!-- Right Navigation -->
+            <div class="nav-group nav-right">
+                <a href="#certifications" class="nav-item">Certifications</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#contact" class="nav-item nav-item-highlight">Contact</a>
+            </div>
+
+            <!-- Theme Toggle -->
+            <button id="theme-toggle" class="theme-toggle-capsule" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 12h16"></path>
+                    <path d="M4 18h16"></path>
+                    <path d="M4 6h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#about" class="mobile-menu-item">About</a>
+            <a href="#experience" class="mobile-menu-item">Experience</a>
+            <a href="#projects" class="mobile-menu-item">Projects</a>
+            <a href="#certifications" class="mobile-menu-item">Certifications</a>
+            <a href="#skills" class="mobile-menu-item">Skills</a>
+            <a href="#education" class="mobile-menu-item">Education</a>
+            <a href="#contact" class="mobile-menu-item">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1 id="typed-text"></h1>
+            <p class="subtitle">Data Engineer | Meta · University of Florida | UF '24 Alum</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="Triveni_ReddyFTResumeDE.pdf" download class="btn btn-resume">Download Resume</a>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+                <p>I'm a Data Engineer with a passion for building scalable data infrastructure that turns raw signals into reliable insights. With an MS in Information Systems and Operations Management (Data Science) from the University of Florida, I've shipped production pipelines at Meta's Instagram Calling & Messaging org, built agricultural ML systems at UF, and engineered ETL workflows at IBM.</p>
+                <p>I work across the full stack: SQL to Spark, Airflow to Snowflake, Python to PySpark, and dashboards to data modeling. Whether it's enabling real-time product health metrics at scale or boosting soil health prediction accuracy by 95% — I build pipelines that are reliable, observable, and ready for production.</p>
+                <p>I embrace AI-assisted development to accelerate delivery, and I thrive in fast-paced engineering environments where cross-functional collaboration and independent problem-solving matter. Currently seeking Data Engineering roles where the data is messy and the impact is measurable.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Data Engineer</h3>
+                                <p class="company">Meta, USA</p>
+                            </div>
+                            <span class="date-badge">Sep 2025 – May 2026</span>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight-item">
+                                <span class="metric">Scale</span>
+                                <span class="metric-label">Instagram Calling & Messaging</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">Real-Time</span>
+                                <span class="metric-label">Health Monitoring</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">AI-Driven</span>
+                                <span class="metric-label">Dev Velocity</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Supported the Instagram Calling & Messaging organization by <strong>building and maintaining scalable data pipelines and logging infrastructure</strong>, enabling reliable collection, processing, and monitoring of product adoption, performance, reliability, and operational health metrics through dashboards and automated reporting solutions</li>
+                            <li>Leveraged <strong>SQL extensively for large-scale data validation</strong>, troubleshooting, root-cause analysis, and metric reporting across complex datasets, while developing Python-based solutions for workflow automation, historical data backfills, and data pipeline reliability improvements</li>
+                            <li>Contributed to <strong>data modernization initiatives</strong> including domain migrations and legacy system deprecation efforts, partnering with engineering and product stakeholders to ensure successful feature launches, accurate analytics, and operational stability</li>
+                            <li>Utilized <strong>AI-assisted development tools</strong> to accelerate code reviews, PR authoring, data analysis, metric validation, troubleshooting, documentation, and operational support workflows, improving engineering productivity and delivery speed</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Pipelines</span>
+                            <span class="tech-tag">Dashboards</span>
+                            <span class="tech-tag">AI-assisted Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Data Engineer</h3>
+                                <p class="company">University of Florida, FL</p>
+                            </div>
+                            <span class="date-badge">May 2023 – Sep 2025</span>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight-item">
+                                <span class="metric">300K+</span>
+                                <span class="metric-label">Records Processed</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">95%</span>
+                                <span class="metric-label">Model Accuracy Boost</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">30%</span>
+                                <span class="metric-label">Processing Time Reduction</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built scalable data pipelines to process over 300,000 records, <strong>improving model performance and accuracy for soil health predictions by 95%</strong></li>
+                            <li>Conducted sophisticated exploratory data analysis (EDA) on complex spectral datasets, creating <strong>15+ advanced visualizations</strong> that transformed raw data into actionable agricultural research insights</li>
+                            <li>Leveraged <strong>Python and Apache Spark</strong> to analyze data and automate workflows, improving processing time by 30%</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Apache Spark</span>
+                            <span class="tech-tag">EDA</span>
+                            <span class="tech-tag">Data Pipelines</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Associate System Engineer</h3>
+                                <p class="company">IBM, Bangalore, India</p>
+                            </div>
+                            <span class="date-badge">Oct 2021 – Dec 2022</span>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight-item">
+                                <span class="metric">50+</span>
+                                <span class="metric-label">Client Reports Built</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">20%</span>
+                                <span class="metric-label">Data Retrieval Speed Up</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">25%</span>
+                                <span class="metric-label">ETL Efficiency Gain</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Demonstrated expertise in SQL to <strong>create over 50 client reports</strong>, resulting in improved data presentation and analysis; worked with DB2 and MySQL, contributing to a <strong>20% improvement in data retrieval speed</strong></li>
+                            <li>Utilized <strong>UNIX scripting and LINUX</strong> to automate data processes, resulting in a 30% reduction in manual workload</li>
+                            <li>Designed and optimized <strong>ETL workflows in IBM DataStage</strong>, reducing processing time and improving data integration efficiency by 25%</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">DB2</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">IBM DataStage</span>
+                            <span class="tech-tag">UNIX</span>
+                            <span class="tech-tag">ETL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div>
+                                <h3>Data Analyst Intern</h3>
+                                <p class="company">Blue Arcus Technologies, Hyderabad, India</p>
+                            </div>
+                            <span class="date-badge">Jul 2021 – Oct 2021</span>
+                        </div>
+
+                        <div class="experience-highlights">
+                            <div class="highlight-item">
+                                <span class="metric">15%</span>
+                                <span class="metric-label">Reporting Accuracy</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">10%</span>
+                                <span class="metric-label">Call Drop Reduction</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="metric">15%</span>
+                                <span class="metric-label">Operational Efficiency</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="experience-details">
+                            <li>Analyzed and transformed large-scale telecom datasets using SQL and developed <strong>Excel and Tableau dashboards</strong> that improved reporting accuracy by 15%, reduced training time by 20%, and increased operational efficiency by 15%</li>
+                            <li>Contributed to a <strong>10% reduction in call drops</strong> and improved customer satisfaction through data-driven operational insights</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Telecom Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <!-- Role Toggle -->
+            <div class="role-toggle-wrapper">
+                <div class="role-toggle">
+                    <div class="toggle-slider" id="toggleSlider"></div>
+                    <button class="toggle-btn active" id="btn-de" onclick="switchRole('de')">Data</button>
+                    <button class="toggle-btn" id="btn-ds" onclick="switchRole('ds')">ML</button>
+                </div>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+
+                <!-- ── Credit Card Fraud (DE + DS) ─────────────────────────── -->
+                <div class="project-card" data-roles="de ds">
+                    <div class="pc-accent-bar"></div>
+                    <div class="pc-header">
+                        <div class="pc-domain">
+                            <div class="pc-domain-dot"></div>
+                            FinTech & Security
+                        </div>
+                        <h3 class="pc-title">Credit Card<br><em>Fraud Detection</em></h3>
+                        <p class="pc-overview">
+                            End-to-end ETL pipeline and predictive modeling system for detecting fraudulent transactions with 91% accuracy, combining Python-based data engineering with Random Forest classification across real-world financial datasets.
+                        </p>
+                        <div class="pc-links">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="pc-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pc-body">
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-orange">⚙️</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-orange">Data Engineering</div>
+                                <div class="pc-section-text">Built end-to-end <span class="pc-hl pc-hl-orange">ETL pipeline</span> in Python to ingest, clean, and transform raw financial transaction data, handling class imbalance and feature engineering for downstream ML consumption.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-green">🤖</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-green">ML Performance</div>
+                                <div class="pc-section-text">Random Forest classifier achieved <span class="pc-hl pc-hl-green">91% accuracy</span> in detecting fraudulent transactions, with feature importance analysis revealing the most predictive transaction patterns.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-blue">📊</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-blue">Business Impact</div>
+                                <div class="pc-section-text">Enabled <span class="pc-hl pc-hl-blue">real-time fraud flagging</span> across financial datasets, reducing false negatives that cost institutions millions annually in undetected fraudulent charges.</div>
+                            </div>
+                        </div>
+                        <div class="pc-stack">
+                            <div class="pc-stack-label">Tech Stack</div>
+                            <div class="pc-tags">
+                                <span class="pc-tag pc-tag-primary">Python</span>
+                                <span class="pc-tag pc-tag-primary">Random Forest</span>
+                                <span class="pc-tag pc-tag-primary">ETL Pipeline</span>
+                                <span class="pc-tag">Pandas</span>
+                                <span class="pc-tag">Scikit-Learn</span>
+                                <span class="pc-tag">Matplotlib</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- ── Airline Satisfaction (DS) ───────────────────────────── -->
+                <div class="project-card" data-roles="ds">
+                    <div class="pc-accent-bar"></div>
+                    <div class="pc-header">
+                        <div class="pc-domain">
+                            <div class="pc-domain-dot"></div>
+                            Travel & Aviation
+                        </div>
+                        <h3 class="pc-title">Airline Passenger<br><em>Satisfaction Analysis</em></h3>
+                        <p class="pc-overview">
+                            Passenger satisfaction analysis through data preprocessing, feature engineering, and multi-model predictive modeling — achieving up to 96% accuracy using Random Forest, Decision Tree, KNN, and Logistic Regression on airline survey data.
+                        </p>
+                        <div class="pc-links">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="pc-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pc-body">
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-orange">⚡</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-orange">Performance</div>
+                                <div class="pc-section-text">Multi-model comparison — Random Forest, Decision Tree, KNN, Logistic Regression — with best model achieving <span class="pc-hl pc-hl-orange">96% classification accuracy</span> on passenger satisfaction outcomes.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-green">🔬</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-green">Methodology</div>
+                                <div class="pc-section-text">Applied rigorous <span class="pc-hl pc-hl-green">data preprocessing and feature engineering</span> on airline survey data, encoding categorical variables, handling nulls, and deriving interaction features for satisfaction prediction.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-blue">📈</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-blue">Business Impact</div>
+                                <div class="pc-section-text">Identified <span class="pc-hl pc-hl-blue">key satisfaction drivers</span> — seat comfort, inflight service, and on-time performance — providing airlines with actionable levers for customer retention and loyalty improvement.</div>
+                            </div>
+                        </div>
+                        <div class="pc-stack">
+                            <div class="pc-stack-label">Tech Stack</div>
+                            <div class="pc-tags">
+                                <span class="pc-tag pc-tag-primary">Pandas</span>
+                                <span class="pc-tag pc-tag-primary">Matplotlib</span>
+                                <span class="pc-tag pc-tag-primary">Decision Tree</span>
+                                <span class="pc-tag pc-tag-primary">Logistic Regression</span>
+                                <span class="pc-tag">Scikit-Learn</span>
+                                <span class="pc-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- ── DoorDash Recommendation (DE + DS) ──────────────────── -->
+                <div class="project-card" data-roles="de ds">
+                    <div class="pc-accent-bar"></div>
+                    <div class="pc-header">
+                        <div class="pc-domain">
+                            <div class="pc-domain-dot"></div>
+                            Food Tech & Retail
+                        </div>
+                        <h3 class="pc-title">DoorDash<br><em>Service Expansion</em></h3>
+                        <p class="pc-overview">
+                            Survey-driven cluster analysis on 200 users to identify high-value customer segments and recommend new DoorDash services — delivering a 25% engagement increase and 20% revenue boost through Python-based segmentation insights.
+                        </p>
+                        <div class="pc-links">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="pc-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pc-body">
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-orange">🔬</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-orange">Research & Data</div>
+                                <div class="pc-section-text">Led a survey of <span class="pc-hl pc-hl-orange">200 users</span> and applied Python-based cluster analysis to identify distinct behavioral segments, mapping user preferences to untapped service opportunities.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-green">🤖</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-green">Clustering Algorithm</div>
+                                <div class="pc-section-text">Applied unsupervised <span class="pc-hl pc-hl-green">clustering techniques</span> to segment users by order frequency, cuisine preferences, and price sensitivity — revealing high-value groups for targeted service expansion.</div>
+                            </div>
+                        </div>
+                        <div class="pc-section">
+                            <div class="pc-section-icon pc-icon-blue">💰</div>
+                            <div class="pc-section-content">
+                                <div class="pc-section-label pc-label-blue">Business Impact</div>
+                                <div class="pc-section-text">Recommendations drove a <span class="pc-hl pc-hl-blue">25% increase in engagement</span> and <span class="pc-hl pc-hl-blue">20% revenue boost</span> for DoorDash's service expansion, validated through follow-up A/B analysis.</div>
+                            </div>
+                        </div>
+                        <div class="pc-stack">
+                            <div class="pc-stack-label">Tech Stack</div>
+                            <div class="pc-tags">
+                                <span class="pc-tag pc-tag-primary">Python</span>
+                                <span class="pc-tag pc-tag-primary">Clustering</span>
+                                <span class="pc-tag pc-tag-primary">Pandas</span>
+                                <span class="pc-tag">Scikit-Learn</span>
+                                <span class="pc-tag">Seaborn</span>
+                                <span class="pc-tag">Survey Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Tableau Desktop Specialist</h3>
+                        <span class="cert-issuer">Tableau / Salesforce</span>
+                    </div>
+                    <div class="cert-details">
+                        <span class="cert-date">Active</span>
+                        <a href="https://www.tableau.com/learn/certification/desktop-specialist" target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>DB2 for Beginners</h3>
+                        <span class="cert-issuer">IBM</span>
+                    </div>
+                    <div class="cert-details">
+                        <span class="cert-date">Active</span>
+                        <a href="https://www.ibm.com/training/" target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+    
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>Microsoft Azure Fundamentals</h3>
+                        <span class="cert-issuer">Microsoft</span>
+                    </div>
+                    <div class="cert-details">
+                        <span class="cert-date">Active</span>
+                        <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <h3>IBM Data Engineering Professional</h3>
+                        <span class="cert-issuer">IBM / Coursera</span>
+                    </div>
+                    <div class="cert-details">
+                        <span class="cert-date">Active</span>
+                        <a href="https://www.coursera.org/professional-certificates/ibm-data-engineer" target="_blank" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>SQL / PL/SQL</li>
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>Java</li>
+                        <li>Scala</li>
+                        <li>MATLAB</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <ul>
+                        <li>Apache Spark</li>
+                        <li>Hadoop</li>
+                        <li>Airflow</li>
+                        <li>IBM DataStage</li>
+                        <li>Talend</li>
+                        <li>ETL Pipelines</li>
+                        <li>Agile Methodology</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Snowflake</li>
+                        <li>BigQuery</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>DB2 / Teradata</li>
+                        <li>MongoDB</li>
+                        <li>Redshift</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>ML & Analytics</h3>
+                    <ul>
+                        <li>Scikit-Learn</li>
+                        <li>TensorFlow / PyTorch</li>
+                        <li>NumPy / Pandas</li>
+                        <li>Matplotlib / Seaborn</li>
+                        <li>Tableau / Power BI</li>
+                        <li>AWS QuickSight</li>
+                        <li>Advanced Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS (EC2, S3, Lambda, Redshift)</li>
+                        <li>Google Cloud</li>
+                        <li>Microsoft Azure</li>
+                        <li>UNIX / Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>M.S. – Information Systems & Operations Management</h3>
+                    <p class="school">University of Florida</p>
+                    <p class="edu-details">Gainesville, FL, USA</p>
+                    <p class="edu-details">Data Science Concentration · GPA: 3.4/4.0 · Dec 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm actively seeking Data Engineering and Data Science roles. Let's connect!</p>
+            <div class="contact-links">
+                <a href="mailto:trivenialugubelly1999@gmail.com" class="contact-btn">Email Me</a>
+                <a href="https://linkedin.com/" target="_blank" class="contact-btn">LinkedIn</a>
+                <a href="https://github.com/" target="_blank" class="contact-btn">GitHub</a>
+            </div>
+            <p class="location">📍 Gainesville, FL | 📞 (352) 709-6793</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Triveni Reddy Alugubelly. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
